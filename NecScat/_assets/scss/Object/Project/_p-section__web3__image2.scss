@@ -1,0 +1,17 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-section__web3__image2{
+    background-image: url(../img/img2-sp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(201/va.$sp-design-width*100vw);
+    margin-bottom:max(calc(24/va.$sp-design-width*100vw),24px);
+    @include mixin.mq(pc){
+        background-image: url(../img/img2-pc.png);
+        width: calc(540/va.$pc-design-width*100vw);
+        height: calc(324/va.$pc-design-width*100vw);
+        margin-bottom: 0;
+    }
+}

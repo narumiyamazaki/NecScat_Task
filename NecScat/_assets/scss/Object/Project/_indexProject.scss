@@ -10,8 +10,13 @@
 
 //section-hogehoge
 @use './p-section__web3';
-@use './p-section__hogehoge__image';
-@use './p-section__hogehoge__heading3';
-@use './p-section__hogehoge-reverse';
-@use './p-section__hogehoge-reberse__text__wrapper';
-@use './p-section__hogehoge__text';
+@use './p-section__web3__image1';
+@use './p-section__web3__text__wrapper';
+@use './p-section__web3__image2';
+@use './p-section__web3__heading3--sp';
+@use './p-section__web3__heading3--pc';
+@use './p-section__web3__bottom__heading3--sp';
+@use './p-section__web3-reverse';
+@use './p-section__web3-reverse__text__wrapper';
+@use './p-section__web3__text';
+

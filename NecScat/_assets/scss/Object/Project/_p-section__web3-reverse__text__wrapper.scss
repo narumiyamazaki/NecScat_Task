@@ -1,0 +1,12 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-section__web3-reverse__text__wrapper{
+    @include mixin.mq(pc){
+    width: calc(500/va.$pc-design-width*100vw);
+    height: 100%;
+    margin: auto 0;
+    order:-1;
+    margin-right:calc(40/va.$pc-design-width*100vw);
+    }
+}

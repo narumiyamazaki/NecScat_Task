@@ -1,0 +1,15 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-section__web3__bottom__heading3--sp{
+    font-family:va.$font-base;
+    color:#000;
+    font-size:max(calc(20/va.$sp-design-width*100vw),20px);
+    margin-bottom:max(calc(16/va.$pc-design-width*100vw),16px);
+    //text-align: center;
+    font-weight: 700;
+    line-height: calc(30/20);
+    @include mixin.mq(pc){
+        display: none;
+    }
+}

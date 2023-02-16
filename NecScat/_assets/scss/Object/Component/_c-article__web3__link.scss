@@ -1,0 +1,12 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.c-article__web3__link{
+  //width: 100%;
+  //padding: max(calc(40/1440*100vw),40px) 0;
+  @include mixin.mq(pc){
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}

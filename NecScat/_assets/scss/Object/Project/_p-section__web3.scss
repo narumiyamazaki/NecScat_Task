@@ -2,6 +2,7 @@
 @use '../../Foundation/mixin';
 
 .p-section__web3{
+    margin-bottom:max(calc(80/va.$sp-design-width*100vw),80px);
     //background-color: #8a8a8a;
     //padding:calc(20/va.$sp-design-width*100vw);
     @include mixin.mq(pc){
@@ -9,5 +10,6 @@
         //width:calc(1000/va.$pc-design-width*100vw);
         margin:0 auto;
         justify-content: space-between;
+        margin-bottom:max(calc(80/va.$pc-design-width*100vw),80px);
     }
 }
