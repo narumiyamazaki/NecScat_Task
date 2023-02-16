@@ -1,0 +1,16 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-section__contact__text{
+    text-align: center;
+    font-family: va.$font-base;
+    color: #fff;
+    font-weight: 400;
+    font-size:max(calc(16/va.$sp-design-width*100vw),16px);
+    line-height: calc(27.2/16);
+    margin-bottom:calc(40/va.$sp-design-width*100vw);
+    @include mixin.mq(pc){
+        font-size:max(calc(16/va.$pc-design-width*100vw),16px);
+        margin-bottom:calc(40/va.$pc-design-width*100vw);
+    }
+}

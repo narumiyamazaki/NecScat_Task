@@ -7,7 +7,7 @@
     //background-color: #8a8a8a;
     @include mixin.mq(pc){
         display: flex;
-        width:calc(1000/va.$pc-design-width*100vw);
+        //width:calc(1000/va.$pc-design-width*100vw);
         margin:0 auto calc(80/va.$pc-design-width*100vw);
         justify-content: space-between;
     }

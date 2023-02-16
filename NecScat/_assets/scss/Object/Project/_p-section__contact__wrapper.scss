@@ -1,0 +1,22 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-section__contact__wrapper{
+    background-image: url(../img/img-contact.png);
+    padding:max(calc(50/va.$sp-design-width*100vw),50px) max(calc(20/va.$sp-design-width*100vw),20px);
+    position: relative;
+    background-size: cover;
+    &::after{
+        content: '';
+        background-color: #000;
+        opacity: .7;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    @include mixin.mq(pc){
+        padding:max(calc(80/va.$pc-design-width*100vw),80px) 0;
+    }
+}

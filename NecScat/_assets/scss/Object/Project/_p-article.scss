@@ -3,7 +3,7 @@
 
 .p-article{
     background-color: #fff;
-    padding:max(calc(50/va.$sp-design-width*100vw),) max(calc(20/va.$sp-design-width*100vw),);
+    padding:max(calc(50/va.$sp-design-width*100vw),50px) max(calc(20/va.$sp-design-width*100vw),20px);
     @include mixin.mq(pc){
         padding: calc(80/va.$pc-design-width*100vw) calc(180/va.$pc-design-width*100vw);
     }
